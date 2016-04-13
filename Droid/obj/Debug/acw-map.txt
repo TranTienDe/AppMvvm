@@ -1,3 +1,7 @@
+AppMvvm.Droid.SplashActivity, AppMvvm.Droid;md55494f383cd1af9911ed46fe80107d0d7.SplashActivity
+AppMvvm.Droid.SplashActivity, AppMvvm.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md55494f383cd1af9911ed46fe80107d0d7.SplashActivity
+AppMvvm.Droid.SplashActivity;md55494f383cd1af9911ed46fe80107d0d7.SplashActivity
+appmvvm.droid.SplashActivity;md55494f383cd1af9911ed46fe80107d0d7.SplashActivity
 AppMvvm.Droid.MainActivity, AppMvvm.Droid;md55494f383cd1af9911ed46fe80107d0d7.MainActivity
 AppMvvm.Droid.MainActivity, AppMvvm.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md55494f383cd1af9911ed46fe80107d0d7.MainActivity
 AppMvvm.Droid.MainActivity;md55494f383cd1af9911ed46fe80107d0d7.MainActivity

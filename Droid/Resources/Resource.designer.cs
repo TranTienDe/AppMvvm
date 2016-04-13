@@ -1852,8 +1852,11 @@ namespace AppMvvm.Droid
 			// aapt resource value: 0x7f020062
 			public const int mr_ic_settings_light = 2130837602;
 			
+			// aapt resource value: 0x7f020064
+			public const int notification_template_icon_bg = 2130837604;
+			
 			// aapt resource value: 0x7f020063
-			public const int notification_template_icon_bg = 2130837603;
+			public const int splash = 2130837603;
 			
 			static Drawable()
 			{
@@ -3284,6 +3287,9 @@ namespace AppMvvm.Droid
 			
 			// aapt resource value: 0x7f070001
 			public const int Theme_MediaRouter_Light = 2131165185;
+			
+			// aapt resource value: 0x7f070144
+			public const int Theme_Splash = 2131165508;
 			
 			// aapt resource value: 0x7f0700fd
 			public const int ThemeOverlay_AppCompat = 2131165437;

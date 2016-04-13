@@ -7,6 +7,8 @@
 /Users/tiende/Projects/AppMvvm/Droid/obj/Debug/res/drawable-hdpi/icon.png
 /Users/tiende/Projects/AppMvvm/Droid/obj/Debug/res/drawable-xhdpi/icon.png
 /Users/tiende/Projects/AppMvvm/Droid/obj/Debug/res/drawable-xxhdpi/icon.png
+/Users/tiende/Projects/AppMvvm/Droid/obj/Debug/res/drawable/splash.png
+/Users/tiende/Projects/AppMvvm/Droid/obj/Debug/res/values/style.xml
 /Users/tiende/Projects/AppMvvm/Droid/obj/Debug/R.cs.flag
 /Users/tiende/Projects/AppMvvm/Droid/bin/Debug/com.companyname.appmvvm-Signed.apk
 /Users/tiende/Projects/AppMvvm/Droid/obj/Debug/uploadflags.txt
