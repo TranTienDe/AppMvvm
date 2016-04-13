@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+	xmlns:viewModels="AppMvvm.MainViewModel" 
+	x:Class="AppMvvm.MainPage">
+
+	<ContentPage.BindingContext>
+		<viewModels:MainViewModel/>
+	</ContentPage.BindingContext>
+
+	<ContentPage.Padding>
+		<OnPlatform x:TypeArguments="Thickness" 
+					iOS="20, 40, 20, 20"
+					Android="20, 20, 20, 20"/>
+	</ContentPage.Padding>
+	<ContentPage.Content>
+		<StackLayout VerticalOptions="Center" HorizontalOptions="Center">
+			<Label Text="{Binding Greeting}"/>
+			<Entry Text="{Binding Name}"/>
+			<Button Text="Say Hello" Command="{Binding SayHelloCommand}" />
+
+			<Button Text="Create widget" Command="{Binding CreateWidgetCommmand}" IsEnabled="{Binding NotIsBusy}"/>
+
+			<Label Text="{Binding WidgetCount}"/>
+
+			<ActivityIndicator IsRunning="{Binding IsBusy}" />
+
+			<ListView ItemsSource="{Binding Employees}" >
+				<ListView.ItemTemplate>
+					<DataTemplate>
+						<ViewCell>
+							<StackLayout Orientation="Horizontal" >
+								<Label Text="{Binding Name}"/>
+								<Label Text="{Binding Age}"/>
+								<Label Text="{Binding Address}"/>
+							</StackLayout>
+						</ViewCell>
+					</DataTemplate>
+				</ListView.ItemTemplate>
+			</ListView>
+
+
+		</StackLayout>
+	</ContentPage.Content>
+</ContentPage>
