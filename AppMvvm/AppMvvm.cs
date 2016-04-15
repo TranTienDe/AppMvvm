@@ -11,7 +11,8 @@ namespace AppMvvm
 			// The root page of your application
 			//MainPage = new MainPage();
 			//MainPage = new DemoView1();
-			MainPage = new DemoView2();
+			//MainPage = new DemoView2();
+			MainPage = new NavigationPage(new QrcodeScanner());
 		}
 
 		protected override void OnStart ()
