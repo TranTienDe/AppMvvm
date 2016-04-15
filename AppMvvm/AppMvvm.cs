@@ -9,7 +9,9 @@ namespace AppMvvm
 		public App ()
 		{
 			// The root page of your application
-			MainPage = new MainPage();
+			//MainPage = new MainPage();
+			//MainPage = new DemoView1();
+			MainPage = new DemoView2();
 		}
 
 		protected override void OnStart ()

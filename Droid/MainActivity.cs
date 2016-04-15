@@ -11,7 +11,7 @@ using Android.OS;
 namespace AppMvvm.Droid
 {
 	[Activity(Theme = "@style/Theme.Splash",
-		MainLauncher = true,
+		/*MainLauncher = true,*/
 		NoHistory = true
 		)] //Doesn't place it in back stack
 	public class SplashActivity : Activity
@@ -24,7 +24,7 @@ namespace AppMvvm.Droid
 		}
 	}
 
-	[Activity (Label = "AppMvvm.Droid", Icon = "@drawable/icon", ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
+	[Activity (Label = "AppMvvm.Droid", Icon = "@drawable/icon", MainLauncher = true, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
 	public class MainActivity : global::Xamarin.Forms.Platform.Android.FormsApplicationActivity
 	{
 		protected override void OnCreate (Bundle bundle)

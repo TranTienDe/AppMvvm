@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+	x:Class="AppMvvm.DemoView1"
+	Title="Title Xaml page">
+
+	<ContentPage.Padding>
+		<OnPlatform x:TypeArguments="Thickness"
+					iOS="20,40,20,20"
+					Android="20,20,20,20" />
+	</ContentPage.Padding>
+	<ContentPage.Content>
+
+		<Label Text="Hello, XAML!"
+				FontSize="Large"
+				FontAttributes="Bold"
+				TextColor="Aqua"
+
+				VerticalOptions="Start"
+				HorizontalTextAlignment="Center"
+
+				Rotation="-15"
+				IsVisible="true"
+		 />
+
+	</ContentPage.Content>
+</ContentPage>
